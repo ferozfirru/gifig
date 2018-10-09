@@ -1,3 +1,4 @@
 *.pbxproj -text
+*.js linguist-language=ReactNative
 android/*
 ios/*
