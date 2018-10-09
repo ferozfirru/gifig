@@ -17,7 +17,7 @@ class Homepage extends Component {
     renderLists() {
         return this.state.lists.map(
             list => 
-                            <Image style={{ width: 400, height: 400 }} source={{ uri: list.mobilePosterUrl }} />
+            <Image style={{ width: 400, height: 400 }} source={{ uri: list.mobilePosterUrl }} />
             
             );
         // return (<Text>123456</Text>);
